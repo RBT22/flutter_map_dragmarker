@@ -9,7 +9,11 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  flutter_map: ^7.0.0
+  flutter_map:
+    git:
+      url: https://github.com/RBT22/flutter_map.git
+      ref: overlay-filter-quality
+
   latlong2: ^0.9.0
 
 dev_dependencies:
@@ -19,3 +23,5 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+
+publish_to: 'none'
